@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Mosque Digital Hub | Connecting the Ummah</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#13ec49",
+              "background-light": "#f6f8f6",
+              "background-dark": "#102215",
+            },
+            fontFamily: {
+              "display": ["Lexend", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>body {
+    font-family: "Lexend", sans-serif
+    }
+.islamic-pattern {
+    background-color: #f6f8f6;
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuDQt72iQb1535qHgelVZ4Em94AsICNucm18EO1PAAtLQnc81ctpEx5-xlceOJU4mC0wHrwI9CHgPTwHbWT-Lve_0OVkeHygrmXvOZ00eVEstNYQ-68njWY9Z8jF2e2de4zCDjF1stDMk_ZJtUf2lc1XfQiiLPwiBhqcFJ8IESbQK92dvUwO0HPhcCWbirDmPe53dM71ySkTTLag5oczhI8lMHRi5y8HGd-GrEJambr1p7Vhkej2V-yJfM2n2CEm4EgOII9lIW7ZQ2o)
+    }</style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100">
+<header class="sticky top-0 z-50 w-full border-b border-primary/10 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<div class="flex h-20 items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-background-dark">
+<span class="material-symbols-outlined text-2xl font-bold">mosque</span>
+</div>
+<span class="text-xl font-bold tracking-tight text-slate-900 dark:text-white">Masjid Jamek Fastabiqul Khayrat Batu 3</span>
+</div>
+<nav class="hidden md:flex items-center gap-8"><a class="text-sm font-medium hover:text-primary transition-colors" href="#">Utama</a><a class="text-sm font-medium hover:text-primary transition-colors" href="#">Siaran Langsung</a><a class="text-sm font-medium hover:text-primary transition-colors" href="#">Kuliah Lepas</a><a class="text-sm font-medium hover:text-primary transition-colors" href="#">Aktiviti</a><a class="text-sm font-medium hover:text-primary transition-colors" href="#">Pengumuman</a></nav>
+<div class="flex items-center gap-4">
+<button class="hidden sm:flex items-center gap-2 rounded-xl bg-primary px-6 py-2.5 text-sm font-bold text-background-dark hover:bg-primary/90 transition-all shadow-lg shadow-primary/20"><span class="material-symbols-outlined text-sm">favorite</span>Derma</button>
+<button class="md:hidden p-2 text-slate-600 dark:text-slate-300">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</div>
+</header>
+<main class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 space-y-12">
+<section class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+<div class="lg:col-span-2 space-y-6">
+<div class="relative overflow-hidden rounded-xl bg-black aspect-video group shadow-2xl">
+<div class="absolute inset-0 bg-cover bg-center opacity-80" data-alt="Wide shot of a beautiful mosque interior with congregants" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDtAalRVcSabotDEMt0eNhNGeTxn63KUauRB5sOUSwdrKPlvLjVzhNSRI_Kt7-JUyjFwq1w_NpazMqP58Aatwh9WMHz3ubfVOT0IJ_GvKM6PuDpEKglv4x-1V0DONwmmerx3vhpQU0eWACUI1vjrWIAn61m71bWEQu1R09HuaTCzpSnlFLqJcjxLSHerZY63dbExcsZ0QKBi_CNMj5vDJlEUkUgcjWbyeK2VDdcmj7Ih-An7hbrxeptuI6suSQ0zoe33HTOBUhRpF4')"></div>
+<div class="absolute top-4 left-4 flex items-center gap-2 rounded-full bg-red-600 px-3 py-1 text-[10px] font-bold text-white uppercase tracking-widest animate-pulse"><span class="h-2 w-2 rounded-full bg-white"></span>SEDANG BERSIARAN</div>
+<div class="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/40 transition-all cursor-pointer">
+<div class="flex h-20 w-20 items-center justify-center rounded-full bg-primary text-background-dark shadow-xl transform group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-4xl fill-1">play_arrow</span>
+</div>
+</div>
+<div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent"><h1 class="text-2xl md:text-3xl font-bold text-white">Khutbah Jumaat: Memperkasa Iman Kita</h1><p class="text-slate-200 text-sm mt-1">Langsung dari Dewan Utama Masjid • 1.2k menonton</p></div>
+</div>
+</div>
+<div class="space-y-6">
+<div class="rounded-xl border border-primary/10 bg-white dark:bg-background-dark/40 p-6 shadow-sm islamic-pattern">
+<div class="flex items-center justify-between mb-6">
+<h3 class="font-bold text-lg">Waktu Solat</h3>
+<span class="text-xs font-semibold text-primary px-2 py-1 bg-primary/10 rounded-full">Shah Alam, SEL</span>
+</div>
+<div class="space-y-3">
+<div class="flex items-center justify-between p-3 rounded-lg bg-slate-50 dark:bg-slate-800/50">
+<span class="text-sm font-medium">Subuh</span>
+<span class="text-sm font-bold">05:54 AM</span>
+</div>
+<div class="flex items-center justify-between p-3 rounded-lg bg-slate-50 dark:bg-slate-800/50">
+<span class="text-sm font-medium">Zuhur</span>
+<span class="text-sm font-bold">01:12 PM</span>
+</div>
+<div class="flex items-center justify-between p-4 rounded-xl bg-primary/20 border-2 border-primary ring-4 ring-primary/5">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">notifications_active</span>
+<span class="text-sm font-bold">Asar</span>
+</div>
+<div class="text-right">
+<div class="text-sm font-black text-primary">04:32 PM</div>
+<div class="text-[10px] uppercase font-bold text-slate-500">bermula dalam 15m</div>
+</div>
+</div>
+<div class="flex items-center justify-between p-3 rounded-lg bg-slate-50 dark:bg-slate-800/50 opacity-60">
+<span class="text-sm font-medium">Maghrib</span>
+<span class="text-sm font-bold">07:18 PM</span>
+</div>
+<div class="flex items-center justify-between p-3 rounded-lg bg-slate-50 dark:bg-slate-800/50 opacity-60">
+<span class="text-sm font-medium">Isyak</span>
+<span class="text-sm font-bold">08:29 PM</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="grid grid-cols-2 md:grid-cols-5 gap-4"><button class="flex flex-col items-center justify-center gap-3 p-6 rounded-xl bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 hover:border-primary/50 transition-all shadow-sm hover:shadow-md group"><span class="material-symbols-outlined text-3xl text-primary group-hover:scale-110 transition-transform">videocam</span><span class="text-sm font-bold">Tonton Langsung</span></button><button class="flex flex-col items-center justify-center gap-3 p-6 rounded-xl bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 hover:border-primary/50 transition-all shadow-sm hover:shadow-md group"><span class="material-symbols-outlined text-3xl text-primary group-hover:scale-110 transition-transform">volunteer_activism</span><span class="text-sm font-bold">Derma</span></button><button class="flex flex-col items-center justify-center gap-3 p-6 rounded-xl bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 hover:border-primary/50 transition-all shadow-sm hover:shadow-md group"><span class="material-symbols-outlined text-3xl text-primary group-hover:scale-110 transition-transform">schedule</span><span class="text-sm font-bold">Waktu Solat</span></button><button class="flex flex-col items-center justify-center gap-3 p-6 rounded-xl bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 hover:border-primary/50 transition-all shadow-sm hover:shadow-md group"><span class="material-symbols-outlined text-3xl text-primary group-hover:scale-110 transition-transform">calendar_month</span><span class="text-sm font-bold">Aktiviti</span></button><button class="col-span-2 md:col-span-1 flex flex-col items-center justify-center gap-3 p-6 rounded-xl bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 hover:border-primary/50 transition-all shadow-sm hover:shadow-md group"><span class="material-symbols-outlined text-3xl text-primary group-hover:scale-110 transition-transform">share</span><span class="text-sm font-bold">Media Sosial</span></button></section>
+<section class="rounded-2xl bg-gradient-to-r from-background-dark via-[#1a3d24] to-background-dark p-8 md:p-12 text-white relative overflow-hidden"><div class="absolute top-0 right-0 p-4 opacity-10"><span class="material-symbols-outlined text-9xl">mintmark</span></div><div class="relative z-10 grid md:grid-cols-2 gap-12 items-center"><div class="space-y-4"><h2 class="text-3xl font-bold">Tabung Pembangunan Masjid</h2><p class="text-slate-300">Sertai kami dalam memperluas pusat komuniti dan sayap pendidikan kami untuk memberi perkhidmatan yang lebih baik kepada Ummah tempatan.</p><div class="flex items-center gap-4 pt-4"><button class="rounded-xl bg-primary px-8 py-3 font-bold text-background-dark shadow-xl shadow-primary/20 hover:scale-105 transition-transform">Derma Sekarang</button><div class="text-sm"><span class="block text-slate-400">Jumlah Penyumbang</span><span class="font-bold">1,245 Orang</span></div></div></div><div class="space-y-4"><div class="flex justify-between text-sm font-bold"><span>RM 32,450 terkumpul</span><span class="text-primary">Sasaran: RM 100,000</span></div><div class="h-4 w-full rounded-full bg-white/10 p-1"><div class="h-full rounded-full bg-primary" style="width: 32.45%"></div></div><div class="grid grid-cols-3 gap-2 text-[10px] uppercase tracking-wider text-slate-400 font-bold"><div>Sub-total: Fasa 1</div><div class="text-center">Permit Bangunan</div><div class="text-right">Asas Tapak</div></div></div></div></section>
+<section class="space-y-6">
+<div class="flex items-center justify-between">
+<h2 class="text-2xl font-bold flex items-center gap-2"><span class="material-symbols-outlined text-primary">history</span>Rakaman Kuliah</h2>
+<a class="text-sm font-bold text-primary flex items-center gap-1 hover:underline" href="#">Lihat Semua<span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+<div class="flex overflow-x-auto gap-6 pb-4 scrollbar-hide">
+<div class="min-w-[280px] md:min-w-[320px] group cursor-pointer">
+<div class="relative aspect-video rounded-xl overflow-hidden mb-3">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform" data-alt="Close up of a person reading the Holy Quran" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPx6l4WMnih5xTGk7iZWwb3QXo2Q40Iyw2Bz_2SIjSN7JIfUKkZIJkmP5EZ-3mJUAslWopZqPKtMI4APZS5szeLaGz0chpb5-Mb_TSnri_GFPEGnaLMhH5bBJEYYMRMLKG5AJAJr5e4aOePj8aYTibMe_wiFochwoXAu5PklfgaekJ0uNIiOQPK5zl7eZG_PJM_7zToYg62BQJOvK7JXC13GddnQwwfOCEjtt-PLwQzg5kR4GHKsVSsXMKPBOQg0AEUxmoX5Vjo64"/>
+<div class="absolute bottom-2 right-2 rounded bg-black/60 px-2 py-1 text-[10px] font-bold text-white">45:21</div>
+</div>
+<h3 class="font-bold text-sm line-clamp-2">Importance of Patience in Islam - Ustaz Ahmad</h3>
+<p class="text-xs text-slate-500 mt-1">2 days ago • 3.4k views</p>
+</div>
+<div class="min-w-[280px] md:min-w-[320px] group cursor-pointer">
+<div class="relative aspect-video rounded-xl overflow-hidden mb-3">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform" data-alt="Scenic view of a mosque at sunset" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwTM9SUM6LVxP-fQS_VzsQ8bgSxh7zvDV_Cc--yrjfWUVugx4pOCAFxLxaXAsng6LfMEd-sfFHiqnSpv-TVUkDEdk3HwNx2_WrTrg4wo_RF-7oxk0TUuwv0Xm82A39fNZL0-DCB_3W9xV09XhLPEcpNem7i-OEpBupBIwWnOzVP1knt6chkzeqGgPFHKS63BNnKNPSoE-zrl9YWNwh_YYh6PVWXXl9MFmRt4yAVY4-IeqSecjbFsJw90Z2lSvmz5TxzM1R_r1josQ"/>
+<div class="absolute bottom-2 right-2 rounded bg-black/60 px-2 py-1 text-[10px] font-bold text-white">1:12:05</div>
+</div>
+<h3 class="font-bold text-sm line-clamp-2">Community Townhall: Ramadan Preparation 2024</h3>
+<p class="text-xs text-slate-500 mt-1">1 week ago • 1.1k views</p>
+</div>
+<div class="min-w-[280px] md:min-w-[320px] group cursor-pointer">
+<div class="relative aspect-video rounded-xl overflow-hidden mb-3">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform" data-alt="Traditional Islamic calligraphy artwork" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwW0WqCENlrI93_M_s-MoQ2mua1dgnyNZdTFPb1S72JgNSmtCJpCNgCnVCf__uMjiToJWswmSVPVxut3q0BmpvAKjj_rU-MWQsRLRtMV6WKrK-lf-UwPvVSvbkCA0s6G5xrEs8Z88-pokW3bdtvJ4wR4D2yRXEi53ZBcbXjAObZIbdfsq-Lz1GO3zL_Oqv4vFtdTzkt_yyjPxjDRS-mXFI8QMl_FlzXywyhqm2_FlyLBTwDSGe5JR5WyNGIwnqAjQ_22CPK3dPcFM"/>
+<div class="absolute bottom-2 right-2 rounded bg-black/60 px-2 py-1 text-[10px] font-bold text-white">38:14</div>
+</div>
+<h3 class="font-bold text-sm line-clamp-2">Weekly Tafsir Circle: Surah Al-Kahf Explained</h3>
+<p class="text-xs text-slate-500 mt-1">2 weeks ago • 5.6k views</p>
+</div>
+</div>
+</section>
+<section class="space-y-6"><div class="flex items-center justify-between"><section class="space-y-6 pt-8"><h2 class="text-2xl font-bold flex items-center gap-2"><span class="material-symbols-outlined text-primary">video_library</span>Video TikTok</h2><div class="flex overflow-x-auto gap-4 pb-4 scrollbar-hide"><div class="min-w-[200px] aspect-[9/16] rounded-xl bg-slate-100 dark:bg-slate-800 overflow-hidden relative group cursor-pointer"><img alt="TikTok 1" class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKO6a35fIABQt593irQfH6MhAxc6eJlMlx7guJuQFTKA8XwqboAiRRwckyOEjSPg7dixSvk1IbnRsNk6LrzTDUnjmjv_uDH2nwNXUHKsHaiXP8C42CuPMDtOvFGJ1HbQtPGupQHb4KvYXcQ0uKIypwzMBcpLo0Uin7Q1qE5uXceMMMY49iGwcVGVbf_P0Pe_fLjjOHQWHxgFxQhaCkYY5On7QiQkk12gX-RMcm2ghtS-dYq07ctBBpNGTNv4aE1C-y320c4RxuLI8"/><div class="absolute inset-0 flex items-center justify-center"><span class="material-symbols-outlined text-white text-4xl">play_circle</span></div></div><div class="min-w-[200px] aspect-[9/16] rounded-xl bg-slate-100 dark:bg-slate-800 overflow-hidden relative group cursor-pointer"><img alt="TikTok 2" class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkNjNxvPRKaTbARWbIrvr65diGcy8mdxb925Lb-J8j-Q_NDdYIAUmh-ZynKhS2ElM0B5u3UvdNycyZoXPsmq1p9QSw4PvggsYDANh0GSLdqH3NeSt5KWGFwYDZBm6LsVufbSX6g0T8goDYcYrNxYArepvi-RQ19KnO9nVZU7YeGzLTvlAazIikxWkewVqwx_TMQG_wO9JAsk6er1FEExTxg8q38zrF0doxwUK7AApWPKN55ZA1nBwdJ6uRp_s-c0kw_QWu4hWP5vM"/><div class="absolute inset-0 flex items-center justify-center"><span class="material-symbols-outlined text-white text-4xl">play_circle</span></div></div><div class="min-w-[200px] aspect-[9/16] rounded-xl bg-slate-100 dark:bg-slate-800 overflow-hidden relative group cursor-pointer"><img alt="TikTok 3" class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMho_g0TyIB_y-NratYTuOrH0GtwY5YNvLDp538mjCAr5giwdhxGT56bJMgw-gn2Di9x2z_b582fFUkTbZ_4pVJYH5Qoi8rxAByL1NhFkloN2OahhmaYOyFHGZ8nCK6stJ3uA4hkhNQ8VIQv7fbY0XA_HV_RSx3rshb-CVxPlg6DrKfpWRenKlk0SffYQjeCAb_FpFggK5IYfsTnxjNGWT2l8S4bfQKatwECoWt57We8efyBiLCpUnUZ8mA8KIXGkN5aT5cWae9NY"/><div class="absolute inset-0 flex items-center justify-center"><span class="material-symbols-outlined text-white text-4xl">play_circle</span></div></div><div class="min-w-[200px] aspect-[9/16] rounded-xl bg-slate-100 dark:bg-slate-800 overflow-hidden relative group cursor-pointer"><img alt="TikTok 4" class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCB5dFrYzgQGL17itzn5chqVStjnDx9nyc2nKX3AEfZIVpoNIrces1huIWIlwaFBCIuQ8NzAmOrFv_sbgZle79q-2MJl4OTGpkoZ6ZGpynYJsjf3xXYecYKs6ef_zGdo-YqrV14S9pyOgnQx5rEmHzt5zBWVeAbJ1B8HLqErVUTFnerX7T-oJlOzImw0g06aU-Dk-Piuv9YBiyLmV9zTapGzVl2aHSe2WSpv79FDU6GP0nqZtokDwpZZWRVrxafQYQ8zLHjpo339X4"/><div class="absolute inset-0 flex items-center justify-center"><span class="material-symbols-outlined text-white text-4xl">play_circle</span></div></div></div></section><h2 class="text-2xl font-bold flex items-center gap-2"><span class="material-symbols-outlined text-primary">feed</span>Kemas Kini Terkini</h2><a class="text-sm font-bold text-primary flex items-center gap-1 hover:underline" href="#">Lihat Semua<span class="material-symbols-outlined text-sm">arrow_forward</span></a></div><div class="grid grid-cols-1 md:grid-cols-3 gap-6"><div class="p-4 rounded-xl bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 shadow-sm"><div class="aspect-[4/3] rounded-lg bg-slate-100 mb-3 overflow-hidden"><img alt="Event 1" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGKlC1zNJEOP3eu_AFIe5csmtDtLKNWakrhMnW9W-XLRvU-T5rdrpGzpjINLcj4zlZ5DCEccHKfKrE3wmrkjR_ScvHiRwf1QvMOzYsuyLOn-QvrTV9JZZZCxwEINvZMP49slCx9_obz4dQ2I9-bceOGmD37SOIxbUGG9q6VEQAxOsSsA6X_bWmOktVjNy6hvwdkOhup6S9OGC_YQdCsaYnkHwFS1ZlIrEU7TPqip6j9Iq4WB75Y62fopisiCohKuAT8RblmBtH4_g"/></div><span class="text-[10px] font-black uppercase text-primary">Aktiviti</span><h4 class="font-bold text-sm mt-1">Kuliah Bulanan Bersama Ustaz</h4><p class="text-xs text-slate-500 mt-2">Sertai kami dalam majlis ilmu bulanan yang akan diadakan pada hujung minggu ini.</p></div><div class="p-4 rounded-xl bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 shadow-sm"><div class="aspect-[4/3] rounded-lg bg-slate-100 mb-3 overflow-hidden"><img alt="Event 2" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAyZulOYYNkMV94UJaJzHh0gFXpq3q2vhMFWo-7VshWn5ol5BPSGyTaqTz3bf5nYG7arxSjssJlVfI8XGrtb7ixw8gE98XLaRQ9CM8sAFu-SBpvc14Cnyz9E3n5QOTNvAWRC1SVa44CV1xqv0uoVtSuPsA06ZlwHEfbyx1iQo2GHwHYptnS6EvrRHlHzWqaJ0Qgd14bFSDSfq3zu8cUUTg0bx9a94RrbaTX5kfeXufg9238tABKF27NtEVruVkOTTh31ZJm46zbZZY"/></div><span class="text-[10px] font-black uppercase text-blue-500">Pengumuman</span><h4 class="font-bold text-sm mt-1">Projek Baik Pulih Atap</h4><p class="text-xs text-slate-500 mt-2">Usaha mengumpul dana untuk membaiki bumbung dewan solat wanita sedang giat dijalankan.</p></div><div class="p-4 rounded-xl bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 shadow-sm"><div class="aspect-[4/3] rounded-lg bg-slate-100 mb-3 overflow-hidden"><img alt="Event 3" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZ4QmDHcTN83d2UnC7eYWM95OFdPZWSA3k5V5drOVyQPKdqS43aDLXxq6ehjA6AREw8L7dPJPeXYVbYzfNtyuPOd8PmKFGdPZT--xe3j5X-bXhSLaDXlWvT6Oz0Zdyztie8DZVdRHajkW2J_S3jUd7-GrRfS9cEHn4BaBte5MsW3R1qvnc1xgHuDEY4RuyKChFs6EcDlFNpg9uqh6cZXQH6DwfWoD7A8wu4IMYX-M-b3FrKZsfdH-sXez3_t8Q0Sl0qM3Y4gSPFNQ"/></div><span class="text-[10px] font-black uppercase text-green-500">Kebajikan</span><h4 class="font-bold text-sm mt-1">Agihan Bakul Makanan</h4><p class="text-xs text-slate-500 mt-2">Alhamdulillah, sebanyak 50 bakul makanan telah diagihkan kepada asnaf di sekitar Batu 3.</p></div></div></section>
+</main>
+<footer class="mt-20 border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark pt-16 pb-8">
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+<div class="space-y-4">
+<div class="flex items-center gap-3">
+<div class="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-background-dark">
+<span class="material-symbols-outlined text-xl font-bold">mosque</span>
+</div>
+<span class="text-lg font-bold tracking-tight text-slate-900 dark:text-white">MJFKBT3</span>
+</div>
+<p class="text-xs text-slate-500 leading-relaxed">Berkhidmat demi komuniti dengan kecemerlangan dalam iman, ilmu, dan pembangunan masyarakat.</p>
+<div class="flex gap-4">
+<a class="text-slate-400 hover:text-primary" href="#"><span class="material-symbols-outlined">youtube_activity</span></a>
+<a class="text-slate-400 hover:text-primary" href="#"><span class="material-symbols-outlined">social_leaderboard</span></a>
+<a class="text-slate-400 hover:text-primary" href="#"><span class="material-symbols-outlined">video_library</span></a>
+<a class="text-slate-400 hover:text-primary" href="#"><span class="material-symbols-outlined">send</span></a>
+</div>
+</div>
+<div class="space-y-4">
+<h4 class="font-bold text-sm">Pautan Pantas</h4>
+<ul class="space-y-2 text-xs text-slate-500"><li><a class="hover:text-primary" href="#">Siaran Langsung</a></li><li><a class="hover:text-primary" href="#">Zakat &amp; Derma</a></li><li><a class="hover:text-primary" href="#">Tempahan Ruang</a></li><li><a class="hover:text-primary" href="#">Pendaftaran Nikah</a></li></ul>
+</div>
+<div class="space-y-4">
+<h4 class="font-bold text-sm">Hubungi Kami</h4>
+<div class="space-y-3 text-xs text-slate-500"><div class="flex items-start gap-2"><span class="material-symbols-outlined text-[16px]">location_on</span><span>Persiaran Jubli Perak Batu 3, Shah Alam, Petaling Jaya, Malaysia</span></div><div class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px]">phone</span><span>011-3734 7675</span></div><div class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px]">mail</span><span>mjfkbt3@gmail.com</span></div><div class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px]">link</span><a class="hover:text-primary" href="https://linktr.ee/mjfkbt3" target="_blank">linktr.ee/mjfkbt3</a></div></div>
+</div>
+<div>
+<div class="w-full h-32 rounded-xl bg-slate-100 dark:bg-slate-800 overflow-hidden relative">
+<img class="w-full h-full object-cover opacity-50 grayscale" data-alt="Stylized map showing mosque location" data-location="Kuala Lumpur" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8TWBaiXJy8zuhbX59iCq9GtHS2QWDS7zmuF32oyCKe4uHLo_nYqdCcAdK309o4t8UZOGDoFRSM7G68rXiiRaySPukPS7Vy1gwT0r-UHue6O7r62lxosUGoW8tHXF0nOOt_MxP8VFEulZLfavkN3WGUB92OToSuRnCoyWD65iAalB_o6Z-tumI6kBNFfQQiefDVcEdxr-afkNr9qDjpXNqtXdJiAAXCaugeViL1wLrv9WJBGY_kH4TKxBDXGsZBKj5flcczVmela0"/>
+<div class="absolute inset-0 flex items-center justify-center">
+<a class="rounded-lg bg-white dark:bg-slate-900 px-4 py-2 text-[10px] font-bold shadow-lg flex items-center gap-2" href="#">
+<span class="material-symbols-outlined text-sm text-primary">map</span>
+                                Open in Maps
+                            </a>
+</div>
+</div>
+</div>
+</div>
+<div class="border-t border-slate-100 dark:border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-[10px] font-medium text-slate-400 uppercase tracking-widest">© 2024 Masjid Jamek Fastabiqul Khayrat Batu 3. Hak Cipta Terpelihara.</p>
+<div class="flex items-center gap-6"><a class="text-[10px] font-bold text-slate-400 hover:text-primary" href="#">Terma Penggunaan</a><a class="text-[10px] font-bold text-slate-400 hover:text-primary" href="#">Dasar Privasi</a></div>
+</div>
+</div>
+</footer>
+</body></html>
