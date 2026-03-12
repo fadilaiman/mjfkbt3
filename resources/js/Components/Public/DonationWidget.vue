@@ -25,10 +25,6 @@
         <p v-if="donation.description" class="text-slate-300 text-sm mt-2 leading-relaxed">
           {{ donation.description }}
         </p>
-        <p v-if="donation.contributor_count > 0" class="text-sm text-slate-400">
-          <span class="font-bold text-white">{{ donation.contributor_count.toLocaleString('ms-MY') }}</span>
-          orang telah menyumbang
-        </p>
         <div class="pt-2">
           <a
             href="https://toyyibpay.com/Infaq-Keperluan-MJFK"
