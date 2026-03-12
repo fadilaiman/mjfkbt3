@@ -27,7 +27,7 @@
         </p>
         <div class="pt-2">
           <a
-            href="https://toyyibpay.com/Infaq-Keperluan-MJFK"
+            href="https://toyyibpay.com/Infaq-Keperluan-Masjid"
             target="_blank"
             rel="noopener noreferrer"
             class="inline-flex items-center gap-2 rounded-xl bg-primary px-8 py-4 font-bold text-background-dark shadow-xl shadow-primary/20 hover:scale-105 transition-transform"
