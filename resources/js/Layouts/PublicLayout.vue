@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-background-light text-slate-900">
+  <div class="min-h-screen texture-bg text-slate-900">
     <!-- Sticky Header -->
     <header class="sticky top-0 z-50 w-full border-b border-slate-100 bg-white/80 backdrop-blur-md">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -54,13 +54,15 @@
 
           <!-- Right: Derma button + hamburger -->
           <div class="flex items-center gap-3">
-            <Link
-              href="/derma"
+            <a
+              href="https://toyyibpay.com/Infaq-Keperluan-MJFK"
+              target="_blank"
+              rel="noopener noreferrer"
               class="hidden sm:flex items-center gap-2 rounded-full bg-primary px-5 py-2 text-sm font-bold text-background-dark hover:bg-primary/90 transition-all shadow-lg shadow-primary/20"
             >
               <span class="material-symbols-outlined text-sm">favorite</span>
               Derma
-            </Link>
+            </a>
             <button
               @click="mobileNavOpen = true"
               class="md:hidden p-2 text-slate-600 rounded-lg hover:bg-slate-100 transition-colors"

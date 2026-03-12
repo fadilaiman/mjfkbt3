@@ -32,6 +32,11 @@ return [
         'profile_url' => env('TIKTOK_PROFILE_URL', 'https://www.tiktok.com/@mjfk.batu03'),
     ],
 
+    'toyyibpay' => [
+        'bill_url'  => env('TOYYIBPAY_BILL_URL'),
+        'query_url' => env('TOYYIBPAY_QUERY_URL'),
+    ],
+
     'admin' => [
         'max_login_attempts' => (int) env('ADMIN_LOGIN_MAX_ATTEMPTS', 5),
         'login_decay_minutes' => (int) env('ADMIN_LOGIN_DECAY_MINUTES', 15),

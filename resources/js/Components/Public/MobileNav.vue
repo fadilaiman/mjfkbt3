@@ -78,14 +78,16 @@
             <div class="border-t border-slate-100 my-4"></div>
 
             <!-- Derma CTA -->
-            <Link
-              href="/derma"
+            <a
+              href="https://toyyibpay.com/Infaq-Keperluan-MJFK"
+              target="_blank"
+              rel="noopener noreferrer"
               class="flex items-center justify-center gap-2 w-full px-6 py-3 rounded-xl bg-primary text-background-dark font-bold text-sm hover:bg-primary/90 transition-colors"
               @click="onClose"
             >
               <span class="material-symbols-outlined text-sm">favorite</span>
               Derma Sekarang
-            </Link>
+            </a>
           </nav>
 
           <!-- Social links at bottom -->
